@@ -23,4 +23,4 @@ RequireValidShell     off
 sudo systemctl restart proftpd
 sudo systemctl restart apache2
 
-7. Open a web browser and go to **_http://localhost/ProftpdLogs_** and that's it :-P
+7. Open a web browser and go to http://localhost/ProftpdLogs and that's it :-P
