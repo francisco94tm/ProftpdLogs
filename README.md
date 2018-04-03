@@ -12,7 +12,7 @@ Show proftpd logs using AngularJS
 sudo apt-get install proftpd-basic proftpd-mod-mysql
 ```
 3. Run mysql in a terminal and copy/paste the content of the file **_database.sql_** into it.
-4. Replace the file **_/etc/proftpd/sql.conf_** with the one included in this repository.
+4. Replace the file **_/etc/proftpd/sql.conf_** with the **_sql.conf_** included in this repository.
 5. Edit the file  **_/etc/proftpd/proftpd.conf_** and add the next lines at the end of the file
 
 ```
