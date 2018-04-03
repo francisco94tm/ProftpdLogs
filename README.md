@@ -1,5 +1,6 @@
 # ProftpdLogs
 Show proftpd logs using AngularJS
+
 ![Screenshot](https://raw.githubusercontent.com/francisco94tm/ProftpdLogs/master/screenshot.png)
 
 ## Requisites
