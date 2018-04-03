@@ -1,0 +1,44 @@
+<header> 
+    <input type="search" ng-model="search" placeholder="Buscar">
+</header>
+
+<table class="card-3">
+    <thead>
+        <th></th>
+        <th>Operación</th>
+        <th>Fecha</th>
+        <th>Usuario</th>
+        <th>IP</th>
+        <th>Archivo / Folder</th>
+        <th>Nuevo archivo / Folder</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr ng-repeat = "d in data | orderBy:'-time' | filter:search">
+            <td><i class="material-icons">{{d.icon}}</i></td>
+            <td><span>{{d.operation}}</span></td>
+            <td><span>{{d.time | FormatDate}}</span></td>
+            <td><span>{{d.userid}}</span></td>
+            <td><span>{{d.IP}}</span></td>
+            <td><span ng-if="d.from_!=undefined">{{d.from_}}</span><span ng-if="d.from_==undefined">{{d.details}}</span></td>
+            <td><span>{{d.to_}}</span></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,49 @@
+<!--
+    FTPLog AngularJS app 
+    Display and filter the logs that were generated 
+    using the Proftpd server
+-->
+<!DOCTYPE html>
+<html ng-app="app" ng-cloak>
+<head> 
+
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    
+    <!-- title -->
+	<title>FTPLogs</title>  
+    
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="assets/fonts/tiempos/style.css">
+    <link rel="stylesheet" href="assets/fonts/walfork/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  	 
+    
+</head>
+<body> 
+    <!-- view -->
+    <ng-view></ng-view>  
+
+    <!-- libs -->
+    <script src="assets/libs/jquery.min.js"></script>
+    <script src="assets/libs/angular.min.js"></script>
+    <script src="assets/libs/angular-locale_es-mx.min.js"></script>
+    <script src="assets/libs/angular-route.min.js"></script> 
+
+    <!-- app -->
+	<script src="app/app.module.js"></script>  
+    <script src="app/app.route.js"></script>  
+
+    <!-- components -->
+    <script src="app/components/dashboard.controller.js"></script>
+    <script src="app/components/dashboard.service.js"></script> 
+
+    <!-- shared -->
+    <script src="app/shared/system.service.js"></script>
+    <script src="app/shared/obj.service.js"></script>
+    <script src="app/shared/validate.service.js"></script>
+    <script src="app/shared/formatdate.filter.js"></script>
+</body>
+</html>

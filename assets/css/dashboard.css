@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: "Walfork";
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  background: #dddddd; }
+
+header {
+  height: 250px;
+  background: #402b94;
+  color: white; }
+  header input[type="search"] {
+    background: none;
+    margin: 50px auto;
+    max-width: 1300px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-family: "Walfork";
+    font-size: 50px;
+    padding: 30px 100px; }
+    header input[type="search"]::placeholder {
+      color: rgba(255, 255, 255, 0.3); }
+    header input[type="search"]::-webkit-search-cancel-button {
+      display: none; }
+
+table {
+  margin: 50px auto;
+  margin-top: -71px;
+  max-width: 1300px;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 13px;
+  background: white; }
+  table thead {
+    background-color: #4931A8;
+    color: white;
+    text-transform: uppercase;
+    text-align: left; }
+    table thead th {
+      padding: 30px 0px 25px 20px; }
+  table tbody tr {
+    transition: 0.1s; }
+    table tbody tr:first-child:hover td {
+      background: none; }
+    table tbody tr:nth-child(odd) {
+      background-color: rgba(0, 0, 0, 0.05); }
+    table tbody tr:hover td {
+      background-color: #ddd; }
+    table tbody tr td:nth-child(1) {
+      padding-left: 40px; }
+    table tbody tr td {
+      margin: 0;
+      padding: 8px 10px 8px 30px;
+      font-size: 13px; }
+      table tbody tr td span {
+        display: flex;
+        align-content: center;
+        align-items: center; }
+      table tbody tr td i {
+        opacity: 0.5; }
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
+/*# sourceMappingURL=dashboard.css.map */
