@@ -2,6 +2,7 @@
 Show proftpd logs using AngularJS
 ## Requisites
 - MySQL
+- PHP
 - HTTP Apache or another HTTP server
 - Ubuntu
 ## Installation
