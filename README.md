@@ -9,7 +9,7 @@ sudo apt-get install proftpd-basic proftpd-mod-mysql
 3. Replace the file **_/etc/proftpd/sql.conf_** with the one included in this repository.
 4. Edit the file  **_/etc/proftpd/proftpd.conf_** and add the next lines at the end of the file
 
-```apache
+```
 Include               /etc/proftpd/sql.conf
 RequireValidShell     off
 ```   
