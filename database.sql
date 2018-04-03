@@ -7,7 +7,7 @@ GRANT ALL PRIVILEGES ON ftpd.* TO 'ftpd'@'%' IDENTIFIED BY 'ftpd';
 CREATE TABLE IF NOT EXISTS `ftpgroup` (
   `groupname` varchar(16) COLLATE utf8_general_ci NOT NULL,
   `gid` smallint(6) NOT NULL DEFAULT '5500',
-  `members` text COLLATE utf8_general_ci NOT NULL,
+  `members` text NOT NULL,
   KEY `groupname` (`groupname`)
 );
 
