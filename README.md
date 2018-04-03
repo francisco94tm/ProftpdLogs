@@ -1,5 +1,5 @@
 # ProftpdLogs
-Show ftpd logs using AngularJS
+Show proftpd logs using AngularJS
 ## Requisites
 - MySQL
 - HTTP Apache or another HTTP server
