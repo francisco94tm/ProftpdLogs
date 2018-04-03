@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `log_MODIFY` (
   `userid` text NOT NULL,
   `time` datetime NOT NULL,
   `operation` text NOT NULL,
-  `details` varchar(20) DEFAULT '',
+  `details` text,
   `from_` text,
   `to_` text,
   PRIMARY KEY (`id`)
@@ -61,7 +61,7 @@ CREATE TABLE IF NOT EXISTS `log_WRITE` (
   `userid` text NOT NULL,
   `time` datetime NOT NULL,
   `operation` text NOT NULL,
-  `details` varchar(20) DEFAULT '', 
+  `details` text,
   PRIMARY KEY (`id`)
 );
 
